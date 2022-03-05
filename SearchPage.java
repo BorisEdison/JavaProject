@@ -79,7 +79,7 @@ public class SearchPage extends JFrame implements ActionListener{
                                 JOptionPane.showMessageDialog(frame,"No Application Found with Specified name");
 
                             } else {
-                            JOptionPane.showMessageDialog(frame,dataList.size() +" Application found");
+                            JOptionPane.showMessageDialog(frame,dataList +" Application found");
 
                             }
                         }
